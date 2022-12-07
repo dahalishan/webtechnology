@@ -1,81 +1,98 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Portfolio</title>
-        <meta charset="UTF-8">
-        <meta name="description" content="my potfolio">
-        <meta name="keywords" content="HTML">
-        <meta property="title" content="ishan's potfolio" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta property="og:url" content=" https://www.facebook.com//">
-        <meta property="og:type" content="facebook profile"> 
+  <head>
+    <link rel="stylesheet" href="./potfolio.css" />
+    <title>Portfolio</title>
+    <meta charset="UTF-8" />
+    <meta name="description" content="my potfolio" />
+    <meta name="keywords" content="HTML" />
+    <meta property="title" content="ishan's potfolio" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta property="og:url" content=" https://www.facebook.com//" />
+    <meta property="og:type" content="facebook profile" />
+  </head>
+  <!-- internal css -->
+  <style>
+    #Education h1:hover{
+        text-decoration: underline;
+        color:blueviolet;
+        font-size: 70px;
+    
 
-
-
-      
-    </head>
-    <body style="background-color:rgb(183, 229, 248)">
-        <nav>
-            <li><a href="#intro">Intro</a></li>
-            <li><a href="#Education">Education</a></li>
-            <li><a href="#Hobbies">Hobbies</a></li>
-            <li><a href="#Contact">Contact</a></li>
-        </nav>
-        <div id="intro">
-        <h1>Ishan dahal</h1>
-        <img src="https://scontent.fsif1-1.fna.fbcdn.net/v/t39.30808-6/309642308_1533908137055802_383319102439564339_n.jpg?stp=dst-jpg_s960x960&_nc_cat=101&ccb=1-7&_nc_sid=730e14&_nc_ohc=RrH3CbhywHMAX-l3Yy4&_nc_ht=scontent.fsif1-1.fna&oh=00_AfCZvhJyKFCkLpFzHTvqwNmhsObb4WEp5xkvMy0SCds6fw&oe=638FAD24" height="300">
-        <p>Hi I am ishan dahal i'm currently living in boudha </p>
-        </div>
-        <div id="Education">
-        <h1>Education</h1> 
-        <table border="2" cellspacing="5">
-            <tr>
-                <th>Collage</th>
-                <th>Year</th>
-            </tr>
-            <tr>
-        
-                <td>Arunima collage</td>
-                <td>2020</td>
-                <a rel="nofollow" href="https://www.facebook.com/arunimacollege">Check out arunima collage</a><br>
-                
-            </tr>
-        </table>
-        
+    }       
+  </style>
+  <!-- inline css -->
+  <body style="background-color: rgb(183, 229, 248)">
+    <nav>
+      <li><a href="#intro">Intro</a></li>
+      <li><a href="#Education">Education</a></li>
+      <li><a href="#Hobbies">Hobbies</a></li>
+      <li><a href="#Contact">Contact</a></li>
+    </nav>
+    <div id="intro">
+      <h1>Ishan dahal</h1>
+      <img
+        src="https://scontent.fsif1-1.fna.fbcdn.net/v/t39.30808-6/309642308_1533908137055802_383319102439564339_n.jpg?stp=dst-jpg_s960x960&_nc_cat=101&ccb=1-7&_nc_sid=730e14&_nc_ohc=RrH3CbhywHMAX-l3Yy4&_nc_ht=scontent.fsif1-1.fna&oh=00_AfCZvhJyKFCkLpFzHTvqwNmhsObb4WEp5xkvMy0SCds6fw&oe=638FAD24"
+        height="300"
+      />
+      <p>Hi I am ishan dahal i'm currently living in boudha</p>
     </div>
-    <div id="Hobbies">
-        <h2>Hobbies</h2>
-        <ol>
-            <li >Coding </li>
-            <li>Gaming</li>
-            <li>Hiking</li>
-        </ol>
+    <div id="Education">
+      <h1>Education</h1>
+    </div>
+    <div>
+      <table border="2" cellspacing="5">
+        <tr>
+          <th>Collage</th>
+          <th>Year</th>
+        </tr>
+        <tr>
+          <td>Arunima collage</td>
+          <td>2020</td>
+          <a rel="nofollow" href="https://www.facebook.com/arunimacollege"
+            >Check out arunima collage</a
+          ><br />
+        </tr>
+      </table>
+    </div>
+    <div class="Hobbies">
+      <h2>Hobbies</h2>
+      <ol>
+        <li>Coding</li>
+        <li>Gaming</li>
+        <li>Hiking</li>
+      </ol>
     </div>
     <div id="Contact">
-
-        <h2>Contact me</h2>
-        <form >
-            <div>
-            <label>Name:</label>
-            <input type="text">
-            </div>
-            <br>
-            <div>
-            <label>Email:</label>
-            <input type:"email" placeholder="ishandhl11@gmail.com">
-            </div>
-            <div>
-            <label>Message:</label>
-            <textarea></textarea>
-            </div>
-            <br>
-            <button>Submit</button>
-
-        </form>
+      <h2>Contact me</h2>
+      <form>
+        <div>
+          <label>Name:</label>
+          <input type="text" />
         </div>
-        <footer>
-            <p>Contact me here:<a href="https://myaccount.google.com/?hl=en&utm_source=OGB&utm_medium=act" target="_blank"> Gmail </a></p>
-            Copyright@2022
-        </footer>
-    </body>
+        <br />
+        <div>
+          <label>Email:</label>
+          <input type:"email" placeholder="ishandhl11@gmail.com">
+        </div>
+        <div>
+          <label>Message:</label>
+          <textarea></textarea>
+        </div>
+        <br />
+        <button class="btn">Submit</button>
+      </form>
+    </div>
+    <footer>
+      <p>
+        Contact me here:<a
+          href="https://myaccount.google.com/?hl=en&utm_source=OGB&utm_medium=act"
+          target="_blank"
+        >
+          Gmail
+        </a>
+      </p>
+      Copyright@2022
+    </footer>
+  </body>
 </html>
