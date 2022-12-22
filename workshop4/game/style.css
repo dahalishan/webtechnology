@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Carattere&display=swap');
+*{
+    margin:0;
+    padding:0;
+}
+.main{
+    background-color: aqua;
+}
+.image img{
+    width:100%;
+}
+.main h1{
+    background-color: rgb(224, 106, 115);
+    text-align: center;
+}
+.discription{
+    background-color: rgb(174, 213, 244);
+    font-family: 'Sevillana', cursive;
+    font-weight:bolder;
+    font-size: 30px;
+}
