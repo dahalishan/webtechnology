@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700;800&family=Unbounded:wght@200;400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  ;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.splitBlock {
+  display: flex;
+}
+
+.left-col {
+  width: 50%;
+  height: 100%;
+  background-color: rgb(55, 35, 4);
+  padding: 14%;
+  color: #f8f6f9;
+}
+
+h1 {
+  font-size: 50px;
+  line-height: 1.1;
+  margin-bottom: 30px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  
+}
+
+h2 {
+  margin-bottom: 100px;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.right-col {
+  width: 50%;
+}
+
+figure {
+  width: 107% ;
+  height: 100%;
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  border: 10px;
+}
+
+.button {
+  margin-top: 20px;
+}
+
+
+
+@media screen and (max-width: 1024px) {
+  .button a {
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .content-wrapper {
+    padding-bottom: 50px;
+  }
+
+  .left-col,
+  .right-col {
+    width: 100%;
+  }
+
+  figure {
+    height: 100%;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .button a {
+    text-align: center;
+  }
+}
